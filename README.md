@@ -1,3 +1,5 @@
+My solution for problem from URI,HackerRank using C and C++ .
+
 # URI And HackerRank Problem Solving
 
 Hackerrank_profile ==> https://www.hackerrank.com/mmr_ashiq  
