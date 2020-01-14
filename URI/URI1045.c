@@ -1,3 +1,5 @@
+/*important section : representing the sides of a triangle and arrange them in decreasing order
+*/
 #include <stdio.h>
 int main()
 {
