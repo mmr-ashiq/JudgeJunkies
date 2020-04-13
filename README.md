@@ -5,3 +5,5 @@ My solution for problem from URI,HackerRank using C and C++ .
 Hackerrank_profile ==> https://www.hackerrank.com/mmr_ashiq
 
 URI_profile ==> https://www.urionlinejudge.com.br/judge/en/profile/298100
+
+Leetcode ==> https://leetcode.com/mmr_ashiq/
