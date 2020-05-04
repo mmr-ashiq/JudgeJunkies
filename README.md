@@ -1,6 +1,6 @@
 My solution for problem from URI,HackerRank and other problem solving website using C and C++ .
 
-# URI And HackerRank Problem Solving
+### URI And HackerRank Problem Solving
 
 >Hackerrank_profile ==>
 
