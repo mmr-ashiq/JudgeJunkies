@@ -11,7 +11,7 @@
 
 
 ---
-URI_profile ==> 
+>URI_profile ==> 
 
 
 [URI](https://www.urionlinejudge.com.br/judge/en/profile/298100)
@@ -20,7 +20,7 @@ URI_profile ==>
 ---
 
 
-Leetcode_Profile==> 
+>Leetcode_Profile==> 
 
 
 [LeetCode](https://leetcode.com/mmr_ashiq/)
