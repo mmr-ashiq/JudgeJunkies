@@ -3,9 +3,15 @@ public:
     vector<int> spiralOrder(vector<vector<int>>& matrix) {
         vector<int> ans;
         int m = matrix.size();
-        int n = matrix[0].size();
         
-        int sr = 0, er = n-1, sc = 0, ec = n-1;
+        if(m == 0)
+            return ans;
+        
+        int n = matrix[0].size();
+        if(n == 0)
+            return ans;
+        
+        int sr = 0, er = m-1, sc = 0, ec = n-1;
         int count = 0;
         while(sr <= er && sc <= ec){
             //print sr
@@ -30,7 +36,7 @@ public:
             //print er
             for(int i = ec; i >= sc; i++){
                 ans.push_back(matrix[er][i]);
-                    count++;
+                count++;
             }
             er--;
             if(count == m*n)
