@@ -36,7 +36,7 @@ class Solution:
 
         current_key = current_stair
 
-        if memo.get(current_key):
+        if current_key in memo:
             return memo[current_key]
 
         one_jump = self.total_ways(current_stair + 1, target_stair, memo)
