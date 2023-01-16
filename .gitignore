@@ -1,1 +1,9 @@
+<<<<<<< HEAD
 .idea
+=======
+.git
+.vscode
+__pycache__
+build
+dist
+>>>>>>> 57a3c48f49883b53c93e20b7357529a17077135d

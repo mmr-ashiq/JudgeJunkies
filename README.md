@@ -1,4 +1,6 @@
->Here you can find My solution for problem from URI,HackerRank and other problem solving website using C and C++ .
+### Welcome to the Problem-Solving-of-Various-OJ repository!
+
+>This repository contains solutions to various problems from online judges (OJ) such as LeetCode, Hackerrank, and SPOJ. The solutions are implemented in a variety of programming languages, including C++, Java, and Python.
 
 ### URI And HackerRank Problem Solving
 
