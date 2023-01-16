@@ -10,13 +10,12 @@ class Solution:
         a = 0
         b = 1
 
-        for i in range(2, n+1):
+        for i in range(2, n + 1):
             c = a + b
             a = b
             b = c
 
         return b
-
 
     # recursive solution
     def fib(self, n: int) -> int:
@@ -26,32 +25,34 @@ class Solution:
         if (n == 1):
             return 1
 
-        a = self.fib(n-1)
-        b = self.fib(n-2)
+        a = self.fib(n - 1)
+        b = self.fib(n - 2)
 
         return a + b
 
-    
     # recursive solution with memoization
-    def fib(self, n: int, memo: dict) -> int:
-        if (n == 0):
-            return 0
+    class Solution:
+        def fib(self, n: int) -> int:
+            return self.nthFib(n, {})
 
-        if (n == 1):
-            return 1
+        def nthFib(self, n, memo):
 
-        current_key = n
+            if n == 1:
+                return 1
 
-        if current_key in memo:
-            return memo[current_key]
+            if n == 0:
+                return 0
 
-        a = self.fib(n-1, memo)
-        b = self.fib(n-2, memo)
+            currentKey = n
 
-        memo[current_key] = a + b
+            if currentKey in memo:
+                return memo[currentKey]
 
-        return memo[current_key]
+            a = self.nthFib(n - 1, memo)
+            b = self.nthFib(n - 2, memo)
 
+            memo[currentKey] = a + b
+            return memo[currentKey]
 
 
 """ 
